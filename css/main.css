@@ -1,3 +1,6 @@
+body {
+    background-color: #c6faf1;
+}
 .penguin {
     position: relative;
     margin: auto;
@@ -14,7 +17,7 @@
 .penguin-top {
     top: 10%;
     left: 25%;
-    background: gray;
+    background: black;
     width: 50%;
     height: 45%;
     border-radius: 70% 70% 60% 60%;
@@ -22,7 +25,7 @@
 .penguin-bottom {
     top: 42%;
     left: 23.5%;
-    background: grey;
+    background: black;
     width: 53%;
     height: 45%;
     border-radius: 70% 70% 100% 100%;
@@ -35,6 +38,7 @@
     width: 15%;
     height: 17%;
     border-radius: 50%;
+    z-index: 2;
 }
 
 .right-pupil {
@@ -43,7 +47,7 @@
     background: white;
     width: 40%;
     height: 40%;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 
 .left-eye {
@@ -53,6 +57,7 @@
     width: 15%;
     height: 17%;
     border-radius: 50%;
+    z-index: 2;
 }
 
 .left-pupil {
@@ -71,12 +76,13 @@
     width: 17%;
     height: 7%;
     border-radius: 100% 100% 100% 100%;
+    z-index: 2;
 }
 
 .right-hand {
 	top: 0%;
 	left: -5%;
-	background: gray;
+	background: black;
 	width: 30%;
 	height: 60%;
 	z-index: -1;
@@ -87,7 +93,7 @@
 .left-hand {
 	top: 0%;
 	left: 71%;
-	background: gray;
+	background: black;
 	width: 30%;
 	height: 60%;
 	z-index: -1;
@@ -124,6 +130,7 @@
     width: 15%;
     height: 9%;
     border-radius: 70% 70% 60% 60%;
+    z-index: 2;
 }
 
 .right-chick {
@@ -133,4 +140,35 @@
     width: 15%;
     height: 9%;
     border-radius: 70% 70% 60% 60%;
+    z-index: 2;
+}
+
+.belly {
+    top: 60%;
+    left: 2.5%;
+    background: white;
+    width: 95%;
+    height: 100%;
+    border-radius: 120% 120% 100% 100%;
+    z-index: 1;
+}
+
+.right-head-circle {
+    top: 17%;
+    left: 7.5%;
+    background: white;
+    width: 60%;
+    height: 68%;
+    border-radius: 120% 120% 100% 100%;
+    z-index: 1;
+}
+
+.left-head-circle {
+    top: 17%;
+    left: 32%;
+    background: white;
+    width: 60%;
+    height: 68%;
+    border-radius: 120% 120% 100% 100%;
+    z-index: 1;
 }
