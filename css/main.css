@@ -80,14 +80,19 @@ body {
 }
 
 .right-hand {
-	top: 0%;
-	left: -5%;
+	top: 5%;
+	left: 25%;
 	background: black;
 	width: 30%;
 	height: 60%;
 	z-index: -1;
 	border-radius: 30% 30% 120% 30%;
-	transform: rotate(45deg);
+	transform: rotate(130deg);
+    animation-name: wave;
+    animation-iteration-count: infinite;
+    transform-origin:0% 0%;
+    animation-timing-function: linear;
+    animation-duration: 3s;
 }
 
 .left-hand {
@@ -171,4 +176,37 @@ body {
     height: 68%;
     border-radius: 120% 120% 100% 100%;
     z-index: 1;
+}
+
+@keyframes wave {
+    10% {
+        transform: rotate(110deg);
+    }
+    20% {
+        transform: rotate(130deg);
+    }
+    30% {
+        transform: rotate(110deg);
+    }
+    40% {
+        transform: rotate(130deg);
+    }   
+    50% {
+        transform: rotate(110deg);
+    }
+    60% {
+        transform: rotate(130deg);
+    }
+    70% {
+        transform: rotate(110deg);
+    }
+    80% {
+        transform: rotate(130deg);
+    }
+    90% {
+        transform: rotate(110deg);
+    }
+    100% {
+        transform: rotate(130deg);
+    }       
 }
