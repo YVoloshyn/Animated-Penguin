@@ -20,7 +20,7 @@
     border-radius: 70% 70% 60% 60%;
  }
 .penguin-bottom {
-    top: 40%;
+    top: 42%;
     left: 23.5%;
     background: grey;
     width: 53%;
@@ -30,24 +30,42 @@
 
 .right-eye {
     top: 40%;
-    left: 60%;
-    background: white;
+    left: 25%;
+    background: black;
     width: 15%;
     height: 17%;
+    border-radius: 50%;
+}
+
+.right-pupil {
+    top: 17%;
+    left: 14%;
+    background: white;
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
 }
 
 .left-eye {
     top: 40%;
-    left: 25%;
-    background: white;
+    left: 60%;
+    background: black;
     width: 15%;
     height: 17%;
     border-radius: 50%;
 }
 
+.left-pupil {
+    top: 17%;
+    left: 14%;
+    background: white;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
 .beak-top {
-	top: 60%;
+	top: 64%;
     left: 42%;
     background: orange;
     width: 17%;
@@ -97,4 +115,22 @@
 	z-index: -1;
 	border-radius: 30% 30% 65% 30%;
 	transform: rotate(-80deg);
+}
+
+.left-chick {
+    top: 63%;
+    left: 13%;
+    background: pink;
+    width: 15%;
+    height: 9%;
+    border-radius: 70% 70% 60% 60%;
+}
+
+.right-chick {
+    top: 63%;
+    left: 72%;
+    background: pink;
+    width: 15%;
+    height: 9%;
+    border-radius: 70% 70% 60% 60%;
 }
